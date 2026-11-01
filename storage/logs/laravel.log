@@ -1,0 +1,15 @@
+[2026-11-01 09:10:40] production.ERROR: The /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/bootstrap/cache directory must be present and writable. at /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/orchestra/testbench-core/src/Foundation/PackageManifest.php(176): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Orchestra\\Testbench\\Foundation\\PackageManifest->write(Array)
+#2 /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#3 /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/orchestra/testbench-core/src/Foundation/PackageManifest.php(121): Illuminate\\Foundation\\PackageManifest->getManifest()
+#4 /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(90): Orchestra\\Testbench\\Foundation\\PackageManifest->getManifest()
+#5 /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/orchestra/testbench-core/src/Concerns/CreatesApplication.php(532): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/orchestra/testbench-core/src/Concerns/CreatesApplication.php(287): Orchestra\\Testbench\\Foundation\\Application->resolveApplicationBootstrappers(Object(Illuminate\\Foundation\\Application))
+#9 /Users/cranleigh/Herd/laravel/packages/spkm/aruba-central/vendor/orchestra/testbench-core/src/Foundation/Application.php(198): Orchestra\\Testbench\\Foundation\\Application->createApplication()
+#10 /private/tmp/claude-502/-Users-cranleigh-Herd-laravel/811f154f-6592-4fcd-a8bb-a20dfff09ad2/scratchpad/live/probe.php(16): Orchestra\\Testbench\\Foundation\\Application::create('/Users/cranleig...', NULL, Array)
+#11 {main}
+"} 
